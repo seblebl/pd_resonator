@@ -1,4 +1,4 @@
-#N canvas 1234 798 892 1059 12;
+#N canvas 2148 859 892 1059 12;
 #X obj 267 16 adc~ 1 2;
 #X obj 954 -1;
 #X obj 603 28 adc~ 3 4 5 6;
@@ -16,29 +16,29 @@
 #X obj 660 186 s~ cv3;
 #X obj 685 -6 s~ cv4;
 #X obj 165 124 vsl 15 128 0.1 1000 1 0 empty empty empty 0 -9 0 10
--262144 -1 -1 5900 1;
+-262144 -1 -1 0 1;
 #X floatatom 165 266 5 0 0 0 - - -, f 5;
 #X floatatom 251 323 5 0 0 0 - - -, f 5;
 #X obj 168 294 phasor~;
 #X obj 167 586 dac~ 1 2 3 4;
 #X obj 253 167 vsl 15 128 10 1000 1 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3400 1;
+-1 -1 0 1;
 #X obj 168 415 moddemod~;
 #X obj 228 477 eurocomb~;
 #X floatatom 319 322 5 0 0 0 - - -, f 5;
 #X obj 316 182 vsl 15 128 0.01 1 1 0 empty empty empty 0 -9 0 10 -262144
--1 -1 9612 1;
+-1 -1 0 1;
 #X obj 318 362 *~ 1;
 #X obj 75 368 *~;
 #X obj 75 393 +~;
 #X obj 88 162 vsl 15 128 0.01 1 1 0 empty empty empty 0 -9 0 10 -262144
--1 -1 7175 1;
+-1 -1 0 1;
 #X floatatom 93 305 5 0 0 0 - - -, f 5;
 #X text 186 136 f_sig;
 #X text 264 182 f_mod;
 #X floatatom 401 321 5 0 0 0 - - -, f 5;
 #X obj 398 181 vsl 15 128 0.01 1 1 0 empty empty empty 0 -9 0 10 -262144
--1 -1 9600 1;
+-1 -1 0 1;
 #X obj 400 361 *~ 1;
 #X text 318 152 comb size;
 #X text 414 182 fb_intern;
